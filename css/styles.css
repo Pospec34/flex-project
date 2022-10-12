@@ -102,12 +102,16 @@ a:link, a:visited {
 /*Content*/
 section{
     text-align: center;
+    padding-bottom: 5rem;
 }
 
 .pictures{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
+
+
 }
 
 .picture{
@@ -122,4 +126,32 @@ section{
     color: #1F2937;
 }
 
+
+/*Quote*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-secondary);
+    padding: 5rem 0;
+}
+
+.quote--text{
+    display: flex;
+    flex-direction: column;
+    max-width: 120ch;
+}
+
+.quote--text p {
+    margin-bottom: 0;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.name{
+    align-self: flex-end;
+    margin: 0;
+    font-weight: 700;
+}
 
