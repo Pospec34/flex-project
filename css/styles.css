@@ -188,3 +188,12 @@ a:link, a:visited {
     margin-top: 0;
 
 }
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    color: var(--color-main-text);
+    background: var(--color-primary);
+    padding: 1rem;
+}
