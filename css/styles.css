@@ -77,10 +77,11 @@ a:link, a:visited {
     color: var(--color-secondary);
 }
 
-img {
+.hero--img {
     height: auto;
     max-width: 410px;
     align-self: flex-end;
+    
 
 }
 .header--links, .header--logo{
@@ -97,3 +98,28 @@ img {
     border-radius: 10px;
     border: none;
 }
+
+/*Content*/
+section{
+    text-align: center;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.picture{
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgrey;
+}
+
+.section--h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
