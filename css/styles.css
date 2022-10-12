@@ -1,0 +1,32 @@
+:root{
+    --color-primary: #1f2937;
+    --color-secondary: #e5e7eb;
+    --color-button: #3882f6;
+    --color-quote: #e5e7eb;
+    --color-main-text: #f9faf8;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-primary);
+}
+
+.header--logo{
+    color: var(--color-main-text);
+}
+
+.header--links {
+    display: flex;
+    gap: 1rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--color-secondary);
+}
